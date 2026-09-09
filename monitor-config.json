@@ -1,0 +1,65 @@
+{
+  "timezone": "America/Toronto",
+  "daily_at": "07:00",
+  "campaigns": [
+    {
+      "id": "hellofresh-ca",
+      "brand": "HelloFresh",
+      "name": "HelloFresh Canada",
+      "enabled": true,
+      "url": "https://www.hellofresh.ca/",
+      "devices": [
+        "desktop",
+        "mobile"
+      ],
+      "ready_selector": "body",
+      "load_limit_ms": 5000,
+      "steps": [],
+      "voucher": {
+        "enabled": false,
+        "code": "",
+        "valid_from": "",
+        "valid_until": "",
+        "eligibility_confirmed": false,
+        "input_selector": "",
+        "apply_selector": "",
+        "result_selector": "",
+        "expected_text": ""
+      }
+    },
+    {
+      "id": "chefsplate-ca",
+      "brand": "Chef's Plate",
+      "name": "Chef\u2019s Plate Canada",
+      "enabled": true,
+      "url": "https://www.chefsplate.com/?locale=en-CA",
+      "devices": [
+        "desktop",
+        "mobile"
+      ],
+      "ready_selector": "body",
+      "load_limit_ms": 5000,
+      "steps": [],
+      "voucher": {
+        "enabled": false
+      }
+    },
+    {
+      "id": "factor-ca",
+      "brand": "Factor",
+      "name": "Factor Canada",
+      "enabled": true,
+      "url": "https://www.factormeals.ca/",
+      "devices": [
+        "desktop",
+        "mobile"
+      ],
+      "ready_selector": "body",
+      "load_limit_ms": 5000,
+      "steps": [],
+      "voucher": {
+        "enabled": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+playwright==1.62.0
+streamlit==1.63.0
+pandas>=2.0,<3
+tzdata>=2025.1
